@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|c:\\users\\amiru\\downloads\\mk2\\awas ada arnolt\\assets\\script\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|c:\\users\\amiru\\downloads\\mk2\\awas ada arnolt\\assets\\script\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\assets\\script\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\assets\\script\\rabbitclownai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rabbitclownai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\assets\\script\\clownbomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\clownbomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\assets\\script\\frogenemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\frogenemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\assets\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\assets\\script\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE42174D-231D-02BC-604B-9DE480E81842}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrogEnemyAI.cs",
+              "DocumentMoniker": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\FrogEnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\FrogEnemyAI.cs",
+              "ToolTip": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\FrogEnemyAI.cs",
+              "RelativeToolTip": "Assets\\Script\\FrogEnemyAI.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAiwMAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T13:13:35.28Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainMenuController.cs",
+              "DocumentMoniker": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\MainMenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\MainMenuController.cs",
+              "ToolTip": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\MainMenuController.cs",
+              "RelativeToolTip": "Assets\\Script\\MainMenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T20:18:39.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DialogueManager.cs",
+              "DocumentMoniker": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\DialogueManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\DialogueManager.cs",
+              "ToolTip": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\DialogueManager.cs",
+              "RelativeToolTip": "Assets\\Script\\DialogueManager.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAcwFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T18:12:34.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClownBomb.cs",
+              "DocumentMoniker": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\ClownBomb.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ClownBomb.cs",
+              "ToolTip": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\ClownBomb.cs",
+              "RelativeToolTip": "Assets\\Script\\ClownBomb.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T17:41:06.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RabbitClownAI.cs",
+              "DocumentMoniker": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\RabbitClownAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\RabbitClownAI.cs",
+              "ToolTip": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\RabbitClownAI.cs",
+              "RelativeToolTip": "Assets\\Script\\RabbitClownAI.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAIwIAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T17:37:02.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Health.cs",
+              "DocumentMoniker": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Health.cs",
+              "ToolTip": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\Health.cs",
+              "RelativeToolTip": "Assets\\Script\\Health.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T13:45:32.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAUwHsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T12:41:59.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerMovement.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T09:52:05.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerAttack.cs",
+              "DocumentMoniker": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\PlayerAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerAttack.cs",
+              "ToolTip": "C:\\Users\\amiru\\Downloads\\mk2\\awas ada arnolt\\Assets\\Script\\PlayerAttack.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerAttack.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAwCAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T09:19:03.979Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

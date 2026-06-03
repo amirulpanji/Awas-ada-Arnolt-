@@ -1,0 +1,1180 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.2f1 (7a4c1aeef971) revision 8014874'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 8029 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-06-03T22:44:17Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-amiru" at "2026-06-03T22:44:17.333141Z"
+
+COMMAND LINE ARGUMENTS:
+D:\mk2\Editer\6000.4.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/amiru/Downloads/mk2/awas ada arnolt
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56328
+-licensingIpc
+LicenseClient-amiru
+-force-d3d12
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/amiru/Downloads/mk2/awas ada arnolt
+C:/Users/amiru/Downloads/mk2/awas ada arnolt
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [31592]  Target information:
+
+Player connection [31592]  * "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 4147203875 [EditorId] 4147203875 [Version] 1048832 [Id] WindowsEditor(7,TGF15SDSM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31592] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31592] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 57.89 ms, found 5 plugins.
+Initialize engine version: 6000.4.2f1 (7a4c1aeef971)
+[Subsystems] Discovering subsystems at path D:/mk2/Editer/6000.4.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/amiru/Downloads/mk2/awas ada arnolt/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:          NVIDIA
+    VRAM:            3937 MB
+    App VRAM Budget: 3346 MB
+    Driver:          32.0.15.8129
+Initialize mono
+Mono path[0] = 'D:/mk2/Editer/6000.4.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/mk2/Editer/6000.4.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/mk2/Editer/6000.4.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/mk2/Editer/6000.4.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.031788 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.571 seconds
+Domain Reload Profiling: 4125ms
+	BeginReloadAssembly (1361ms)
+		CreateAndSetChildDomain (171ms)
+	RebuildCommonClasses (342ms)
+	RebuildNativeTypeToScriptingClass (82ms)
+	initialDomainReloadingComplete (236ms)
+	LoadAllAssembliesAndSetupDomain (533ms)
+		LoadAssemblies (1038ms)
+		AnalyzeDomain (491ms)
+			TypeCache.Refresh (477ms)
+				TypeCache.ScanAssembly (384ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1572ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (168ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (266ms)
+			ProcessInitializeOnLoadMethodAttributes (833ms)
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-amiru"
+[Licensing::IpcConnector] LicenseClient-amiru channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-amiru-6000.4.2" at "2026-06-03T22:44:31.2634837Z"
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              e8a7779f7924491882ba962371e38215
+  Correlation Id:          866e1d326e4c56ccb70d069f471bd250
+  External correlation Id: 4761754835762258860
+  Machine Id:              io6lboY+gF8zYyzyO3eLppNG+K0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-amiru-6000.4.2" (connect: 0.00s, validation: 0.01s, handshake: 5.64s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-amiru-6000.4.2-notifications" at "2026-06-03T22:44:36.9086198Z"
+[Licensing::Module] Licensing Background thread has ended after 19.58s
+[Licensing::Module] Licensing is initialized (took 4.80s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-4CNA-ZQBY-XZWJ-ZSCK-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-07-10T23:43:31Z
+[Licensing::Module] License group:
+  Id: 20066985514532-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 6.73 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 5.24 ms, found 5 plugins.
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.477 seconds
+Domain Reload Profiling: 10640ms
+	BeginReloadAssembly (5379ms)
+		DisableScriptedObjects (18ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (126ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (179ms)
+	LoadAllAssembliesAndSetupDomain (2448ms)
+		LoadAssemblies (1139ms)
+		AnalyzeDomain (1634ms)
+			TypeCache.Refresh (1407ms)
+				TypeCache.ScanAssembly (1344ms)
+			BuildScriptInfoCaches (195ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (2478ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (424ms)
+			ProcessInitializeOnLoadAttributes (791ms)
+			ProcessInitializeOnLoadMethodAttributes (499ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.30 seconds
+Refreshing native plugins compatible for Editor in 18.16 ms, found 5 plugins.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7766 unused Assets / (5.4 MB). Loaded Objects now: 8606.
+Memory consumption went from 167.4 MB to 162.0 MB.
+Total: 118.714400 ms (FindLiveObjects: 8.655400 ms CreateObjectMapping: 3.444500 ms MarkObjects: 96.062900 ms  DeleteObjects: 10.050700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36955.448585 seconds.
+  path: Assets/Tiles/TileGround11.asset
+  importAddress: Guid(35c2c8a9621302343b43d28487f29971) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround11.asset using Guid(35c2c8a9621302343b43d28487f29971) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b45ac2ef39b08555dd0736532698cc47') in 1.9810544 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=386b71df136542f62f5291e896c306fd DependenciesID=1507824347da2351d299685bacf59c61 StaticDependenciesID=31be34f00b37d1cbece852a07f0f1e92 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/prefabs/GameOverPanel.prefab
+  importAddress: Guid(0f04978bd03b31747bf33ed8a8f57d7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/prefabs/GameOverPanel.prefab using Guid(0f04978bd03b31747bf33ed8a8f57d7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2d26a5ca3e0a9a2aa7b9b2f07b93794a') in 0.398973 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f482d53623448aa0ad57201a4a5111e6 DependenciesID=f533ece020de68cb6c1f1bcaf3228d92 StaticDependenciesID=1b73131c6a7af8e9f36cadd57ef9ed75 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/Tiles/TileGround16 1.asset
+  importAddress: Guid(9f2d3b729cb73074487153046cfe66ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround16 1.asset using Guid(9f2d3b729cb73074487153046cfe66ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0d5a0335f2a23795316418bb1b795a1e') in 0.0644413 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8b0d9b6bfd454c243d82bf0390072c93 DependenciesID=de040e50b6b567c63aa28069d0929f3e StaticDependenciesID=b37f10e11730009530d32c359c84a5aa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tiles/TileBackGround9.asset
+  importAddress: Guid(08d3def0f4530fd4eaf280382c0b4fdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileBackGround9.asset using Guid(08d3def0f4530fd4eaf280382c0b4fdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '95049bd3575b4209ae07121c5fcc4db7') in 0.0959021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c02d0e117d55b073553bca12c46bdcf9 DependenciesID=98649ff5d6262ab12ade1ba61ca2d059 StaticDependenciesID=96ed5ad26e4fac728a68d6223d7a82f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tiles/TilePlant15 1.asset
+  importAddress: Guid(8f3d5cb4e2c212c45b46e14c72ceddff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant15 1.asset using Guid(8f3d5cb4e2c212c45b46e14c72ceddff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c38c49e08312f49aff18379ce928e517') in 0.0655936 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a319c59e53c31da1f4062cfca44b86f8 DependenciesID=4b480248f8354dc93281a8425db960ac StaticDependenciesID=37b18287a7106b427a3802568b34fd63 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/TilePlant9.asset
+  importAddress: Guid(fb373b64a285ba5438e01235ffacc435) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant9.asset using Guid(fb373b64a285ba5438e01235ffacc435) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '091ec3cabeb1e64e78c8e93204f99904') in 0.0702406 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=423b93d5e8fddd225bb5079c72479b59 DependenciesID=e4dd453bf08fa20c784a0639d77cce72 StaticDependenciesID=93b810c92d435c6cacf5cbfaefe1ab4d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tiles/Background1 1.asset
+  importAddress: Guid(98c817b6976acd6479a7fe4fd6b90426) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Background1 1.asset using Guid(98c817b6976acd6479a7fe4fd6b90426) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2a0cc0c459fc661d31aaf1e3e627ae84') in 0.0626672 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82f566abe9e765c3156585d1a3adbe2c DependenciesID=cf9f32e8824f2f995bd55a2817bab520 StaticDependenciesID=1cf76b80ff1fb4d29d2a9fe2bbff7e7a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Tiles/Tree3 1.asset
+  importAddress: Guid(a172dd4cb60e886408a501aeae191d92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Tree3 1.asset using Guid(a172dd4cb60e886408a501aeae191d92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '01b3cde59ee3e0df274ba646b3dad136') in 0.0413137 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8abb04ba8693d748b1b4f582f2618e7c DependenciesID=9ac374a931b0588a9b917da87c5ae2bb StaticDependenciesID=695b3a9bf18f4e99b64201d7fa6379b2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/TilePlant6.asset
+  importAddress: Guid(da3e7658088a1dc418443bb07b967a5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant6.asset using Guid(da3e7658088a1dc418443bb07b967a5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ee09de35241c2119d9e2a74550b4fc01') in 0.0436553 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a0cd63f4228c53fc0606061e5107ecb DependenciesID=e7b85e1b187ddb2f597e207bd6b4166e StaticDependenciesID=8cd10305a82446f55686aa385b1f7cfc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/TilePlant10.asset
+  importAddress: Guid(ca1a498e73ab242489ef5ac07adb5505) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant10.asset using Guid(ca1a498e73ab242489ef5ac07adb5505) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '209bfae8859530d7510d45ec36676aff') in 0.056659 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dd5e171a39a6aa446a7363b07dae57ea DependenciesID=848ec1edb42b6ffdad7ef7e782e417ba StaticDependenciesID=f42eaa58e6f87e07ebc653bfb49cdd27 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tiles/TileGround19.asset
+  importAddress: Guid(7e494419f7e826a4eb7fba3eefb33e68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround19.asset using Guid(7e494419f7e826a4eb7fba3eefb33e68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '574a316c439da8029d45c0a6a2c3f10f') in 0.0376958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e869fb4efb33877b13c42ac36b665c68 DependenciesID=5c7fcd132da080a403019cd0aa9fcb8a StaticDependenciesID=c4d2d112239ce44d8763a96630f313e2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tiles/TileGround6.asset
+  importAddress: Guid(efd72ee4cf9ec8043ac53a703ee6e335) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround6.asset using Guid(efd72ee4cf9ec8043ac53a703ee6e335) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2a264c7288543e2de6e7212169c499c2') in 0.057787 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8e83eb9b3f68d71aad013f9380f63c2d DependenciesID=f2814c08a837b10fdd5d185bdb855d20 StaticDependenciesID=bdbb14eca37c60fd4db54d6040825bf1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiles/Stone1 1.asset
+  importAddress: Guid(ec156c24b4f6bbe4cbdaeb581435d94a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Stone1 1.asset using Guid(ec156c24b4f6bbe4cbdaeb581435d94a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bc62639535adfc0c64e4f3c6a7ef0e73') in 0.10407 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=65af1b2ccdf3cf21c33eef1bf5243e43 DependenciesID=d652ea608bc64a16e4a8fbaaf4d3906f StaticDependenciesID=aab0e6755f3163bf78c0492715b266be 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tiles/TileGround4 1.asset
+  importAddress: Guid(00855d203a3b61741bd4978335c2b80b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround4 1.asset using Guid(00855d203a3b61741bd4978335c2b80b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '38450421b939612f19ea61a3d5f26f9b') in 0.0603968 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e9d012c84ac6e167c7124e2be598e3dc DependenciesID=06534037808d785981f0f987b071c52c StaticDependenciesID=65fc42edfe26e44d618c270df7a96238 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tiles/TileBackGround12.asset
+  importAddress: Guid(5af5af2f0ef3955438a8b3ac0fa3f542) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileBackGround12.asset using Guid(5af5af2f0ef3955438a8b3ac0fa3f542) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '882c981fe079967d540f425822b08f99') in 0.0447807 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a932a0ff76902875f6a58fc3dff3b160 DependenciesID=7adf52375e036ce9f84bb46bdcb06b8d StaticDependenciesID=fcb2addf2356fea1a9b8746c7fdcc07b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/TilePlant14 1.asset
+  importAddress: Guid(d4d9ac0447f66764886e0fdc181bfbb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant14 1.asset using Guid(d4d9ac0447f66764886e0fdc181bfbb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '407e896938411e92a2823566900aea11') in 0.0525951 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=77cef823a45008feed734f175bc6dfd1 DependenciesID=719aa7f4b30c2849e2eb04cc6b2a66d1 StaticDependenciesID=f5d5d95408174518c3c3ac868f26375c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/TileBackGround2.asset
+  importAddress: Guid(1c5fc2d36fb6b7049b1711f5fb5bb583) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileBackGround2.asset using Guid(1c5fc2d36fb6b7049b1711f5fb5bb583) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '647e5e46c610fc501480374e2400dff5') in 0.0456832 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0a517bf8a0ee2d72546d9b143c5a8ca7 DependenciesID=73aca694c0cba86adf12ebb98c7a4d90 StaticDependenciesID=bb24c59dfcf0df912d25890ed9565112 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/TilePlant10 1.asset
+  importAddress: Guid(8b8dbb8bbfbe1df4d9f194f0869a0bdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant10 1.asset using Guid(8b8dbb8bbfbe1df4d9f194f0869a0bdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f1e0d81aac3ae377f05eb743b0404d73') in 0.0531595 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ed888597fab385aba39e5ee2139e5eb DependenciesID=2cfe646fc5e308cfb055e168819071e4 StaticDependenciesID=27469eec2ea2cb0d1715bba69f3b9cc8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/Stone2 1.asset
+  importAddress: Guid(661e36fa8529fd2429c24337b0746ae9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Stone2 1.asset using Guid(661e36fa8529fd2429c24337b0746ae9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'eec2245ef8a89aef72dca25a49a74735') in 0.0619564 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1445c39d622a87c5df4bd140ebd9dcc DependenciesID=2d16f9b26bf12939d99bac7b7e541720 StaticDependenciesID=3b8d6aa9829478bb61406f78eabd775b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/Stone3 1.asset
+  importAddress: Guid(239c82329a373b34698ce6ae9913f203) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Stone3 1.asset using Guid(239c82329a373b34698ce6ae9913f203) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c90d554ea8d6a02266047745b842b991') in 0.0633339 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=be25c9d617e2326f7e35f4fac0ec8d0b DependenciesID=a41b38c7f79e15f4b23bee58d0d14ce3 StaticDependenciesID=16dc515455adacb4c4c878f719fe371b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/Background4 1.asset
+  importAddress: Guid(e5ffbcbc14c65234facb7ad86c1b4db3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Background4 1.asset using Guid(e5ffbcbc14c65234facb7ad86c1b4db3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a37a1b99452ccab743fe72e20328bb4a') in 0.0329171 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60e245c4a56914b8d31456497e9d3a1b DependenciesID=d1840e11d588432a46cf0b5572724c36 StaticDependenciesID=e2648daf3e77762db792714da53de831 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Tiles/Stump1 1.asset
+  importAddress: Guid(0cadd77edb9dadb4187fdd53010d5f8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Stump1 1.asset using Guid(0cadd77edb9dadb4187fdd53010d5f8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd40d58f2df6e2c40d68ce726b2389410') in 0.022706 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=db87d43cf80e4beed8f790c1bc755272 DependenciesID=7bfb166a9e89a311c6bc852df1db0cb9 StaticDependenciesID=989084bafae852104e820e866bb3ab65 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/TileGround20 1.asset
+  importAddress: Guid(dff9e65f76cec4348ace0f3e44b97067) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround20 1.asset using Guid(dff9e65f76cec4348ace0f3e44b97067) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e262bf6f3c8d88fdb7b015ec417dd8b0') in 0.0466216 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb804063cf7f99211aaf321e4483ea43 DependenciesID=8e8b0f0c04d5d1c45c01b1f55abe42b8 StaticDependenciesID=57331b8704799a04717ef3f16b62fca5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tiles/Tree5 1.asset
+  importAddress: Guid(ddcf17af884eab84d94b5e31a934c8a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Tree5 1.asset using Guid(ddcf17af884eab84d94b5e31a934c8a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd11b9b41a2ce3a8eceef37ca69eb20fd') in 0.0332459 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3e06a77f744fdc43a19a1832c1215708 DependenciesID=365c8b3ad6b3d55abbdc672403a1418e StaticDependenciesID=6d000dbdd28febed266a626b5320ca4a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/TileFence4 1.asset
+  importAddress: Guid(f8a6e25b8ec6a4b4ea0235956f55d971) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileFence4 1.asset using Guid(f8a6e25b8ec6a4b4ea0235956f55d971) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0e0d422ca22ff3155b503192ec4eea9e') in 0.0446892 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f9c5fbc3f7946bea4007440d79a8ec3 DependenciesID=7db376f568bd305d20bc096263ad915b StaticDependenciesID=85257cfa3639ca7eb9fe977f5a613e46 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/Tree6.asset
+  importAddress: Guid(58d770a4f0ac80b48a25cafad9a8ee70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Tree6.asset using Guid(58d770a4f0ac80b48a25cafad9a8ee70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ca04c960def51c25a5e0c2aedcf45671') in 0.0408508 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=859d3d02e0359713149737d32e26911f DependenciesID=165e794e7ccf6a20d4176e0febe90705 StaticDependenciesID=111c451e42a74704dac3341dc346c1fe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/TileGround17 1.asset
+  importAddress: Guid(ec872c91e53d0514d9cee06f3acdee93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround17 1.asset using Guid(ec872c91e53d0514d9cee06f3acdee93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '98155b98d684f0fb7c791f8a24743920') in 0.0506688 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c5539447d36c8d40d45e08853c658c3 DependenciesID=c8328763f4c35e8717dbac9b60b0890f StaticDependenciesID=c155f70d8842cd53ebb1c65cf0c21ac0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/TilePlant9 1.asset
+  importAddress: Guid(1c4c7aa4391f47b46bde6d64fbf75675) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant9 1.asset using Guid(1c4c7aa4391f47b46bde6d64fbf75675) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dc521330c1ea05173a46958b1a9402c2') in 0.0523689 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec62a451c419196981725757aec78da2 DependenciesID=c2308d32d2103162b7b03c0064cc9a3b StaticDependenciesID=dc7559f3cbf7bda0ca1a65293bca6d6b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/TileGround4.asset
+  importAddress: Guid(02de52ba6c90fb34f85c00e3e4c2f50c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround4.asset using Guid(02de52ba6c90fb34f85c00e3e4c2f50c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd51c996492b645541e6069edbf3e54b4') in 0.0352455 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4674bb9735ed75016bff30b2c35a33fa DependenciesID=a8be5d1f068368b9a898a4271141a89a StaticDependenciesID=c21203bcb661efcad54a4a6a3f6835cf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiles/TileGround9 1.asset
+  importAddress: Guid(9e5a0b22e0e69dc4687e6a595406e3a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround9 1.asset using Guid(9e5a0b22e0e69dc4687e6a595406e3a5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '59a3a11bbfcf5a7239f132a38bedf709') in 0.0538028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50d01e03b53b1bc198ff04e30f0b01be DependenciesID=284e4ea1109dc3d647989fc99c6cf59a StaticDependenciesID=1a4394e162e17226b14f96c2336f298a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/TileBackGround6 1.asset
+  importAddress: Guid(60147176cf72f58419ec04aea5ac738b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileBackGround6 1.asset using Guid(60147176cf72f58419ec04aea5ac738b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9f3f83eb6be9959c066b7ee61606e2aa') in 0.0284469 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c9b30511717bfe334f9c2268400f274 DependenciesID=cf2ce08a43e08dfe4c9e196dc386441a StaticDependenciesID=fd266c22f35c86e290edeac4550fb7ef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/TileGround6 1.asset
+  importAddress: Guid(f001ce9740705eb428d097e4a81b8a44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround6 1.asset using Guid(f001ce9740705eb428d097e4a81b8a44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e6f49ce59da4c72e009c45a40ecf54ad') in 0.0351574 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d2e0e5c61934d3af86b24f71be8a443b DependenciesID=5305c367408704ae9c6b4370a5ef081c StaticDependenciesID=f86e02422b25aaab7a8f8215510f249b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/TilePlant4 1.asset
+  importAddress: Guid(ac197e1ef721ac44fb1394bb15a7fe9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant4 1.asset using Guid(ac197e1ef721ac44fb1394bb15a7fe9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5c5f12f3eda8642670290cb0c00107bd') in 0.0341469 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6487a31db5ba1be1bf9154ed161f7462 DependenciesID=1439baf9a8b19e5348bd4cb8f526958a StaticDependenciesID=09977ed5fde2ee1e148d3119a31304b9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/TilePlant12 1.asset
+  importAddress: Guid(b3f41ee562cae3047b132a14816f1949) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant12 1.asset using Guid(b3f41ee562cae3047b132a14816f1949) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7fdc10673d9d608cc79f811fbd24ba35') in 0.0377769 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=737da1b3817ebdf13ba04863484ed09d DependenciesID=6c192550d048202ac5584a896fff83f0 StaticDependenciesID=d5954c1d3705b03a135fc68acac01983 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tiles/TileBackGround10.asset
+  importAddress: Guid(b8caca6404e84f045a4a9afc19e20197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileBackGround10.asset using Guid(b8caca6404e84f045a4a9afc19e20197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f597e70b930f396e6aa3a987d55a387e') in 0.0422662 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=33c57228d7fadfb8e2d032f5a83d091a DependenciesID=4b671eddcf90922750d9128e529b9a02 StaticDependenciesID=3b33cf9852e33cc8adf6d7f22aeb1304 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/Stone2.asset
+  importAddress: Guid(0d8fbc3b9a1cb7b4cb3662508f4d4897) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Stone2.asset using Guid(0d8fbc3b9a1cb7b4cb3662508f4d4897) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c51b114091d96fd51a3921a89698d9d5') in 0.048319 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=00ac083938e4062df99597900f4e83b7 DependenciesID=443dbdc1480fe6300264e05541fe5cac StaticDependenciesID=785b46ecce1e5056db90a141af33af35 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/TileGround15.asset
+  importAddress: Guid(d3a69255f8129844c8aa8b6a1d7a8f51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround15.asset using Guid(d3a69255f8129844c8aa8b6a1d7a8f51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e1dc4052c1f0d0b5593656c2c9f26cf7') in 0.0216681 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8372e9330bea60142c027075b6f1f8f6 DependenciesID=485a6d9a7bcfcbc0431b055b426cdac7 StaticDependenciesID=822d356a61cb648064db0c43ec0b61f0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileFence6.asset
+  importAddress: Guid(c985d2f526a890a4fa3225faa29ab67e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileFence6.asset using Guid(c985d2f526a890a4fa3225faa29ab67e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b9ae4dd668ac16d7d5898c73f14c464b') in 0.0226423 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=77dc7cfb35ab8dbbceb912adb3d95a30 DependenciesID=a1fdbdfd50a744c3f685f6a01898c671 StaticDependenciesID=56f1baee7e1ccc9d6824a09edc7274fd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/TileFence6 1.asset
+  importAddress: Guid(b8dbcfe900d0ebf43897ca214a151d8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileFence6 1.asset using Guid(b8dbcfe900d0ebf43897ca214a151d8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '605e680f4d1353da8396b93af7702aec') in 0.0627443 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3129fb8e19492068166477d5f278178 DependenciesID=7ea8f4a6c67cead7ba698124a2a729c8 StaticDependenciesID=87d3d1effa6fbe868cf88e0b9af4b3b3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiles/TileGround9.asset
+  importAddress: Guid(2704cddaf77b38645abde1ffc919860f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround9.asset using Guid(2704cddaf77b38645abde1ffc919860f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3fc90813fdbbb4ce06745299340301db') in 0.0295898 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12c199acafc147778390c175429bf52d DependenciesID=0955e5866f993cc9295205999a36361a StaticDependenciesID=158ef9e2a2af24ddef1a7f444d6357a0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/TileGround16.asset
+  importAddress: Guid(f66262edf10273d48b537eecd55eddd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround16.asset using Guid(f66262edf10273d48b537eecd55eddd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '168e78ef9b73aa5f8755ca525fbfe98c') in 0.0180676 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ee1621acb18b841d177226cf155d2d7 DependenciesID=4a9ae098e417491d59d353fab58a1efd StaticDependenciesID=a2925a595d7e12b65afefb187b1b0394 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tiles/TileGround29.asset
+  importAddress: Guid(609c27ece95e9294d904950b3ba58fd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround29.asset using Guid(609c27ece95e9294d904950b3ba58fd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '630b62346a2b5b397b454c98c6d03c49') in 0.0282716 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=da61977ecfa2c5e8c2a2d6a01b642587 DependenciesID=f6f4805e36a49410a3a997a6fede19bd StaticDependenciesID=6e92349f686e8402dc98653904120772 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Stone4.asset
+  importAddress: Guid(b368484eee2a6de4cb75c85a0bd180ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Stone4.asset using Guid(b368484eee2a6de4cb75c85a0bd180ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ccfa1e4dfc750a28e49b69f251717ece') in 0.0279476 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7e0a041396808503e9a72dbe8fb85d5 DependenciesID=b8b56bc789dd70aa084ee15924906b49 StaticDependenciesID=1f23d6941ee2230e1f2062277fc36c4b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant3.asset
+  importAddress: Guid(c6b11abe4c9eab945abfc37afea76ad3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant3.asset using Guid(c6b11abe4c9eab945abfc37afea76ad3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7074aec8bba1dc06945d7e767f0a2d78') in 0.0188139 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a40c5a541cce2f31b78ebed7a6a405e0 DependenciesID=0232dd862429c946209081ddb5f53ba8 StaticDependenciesID=fd758c98cdd4f8abc5f5a983ed9b33e1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiles/TileGround27.asset
+  importAddress: Guid(723ac985740a20e4b8feac76889e97a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround27.asset using Guid(723ac985740a20e4b8feac76889e97a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '31c711b152127b96d8d29e671e31d9b8') in 0.0295805 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=356982533ea1bb27a94880262bc472ee DependenciesID=211f921334dc1e308d15fb2acbce8903 StaticDependenciesID=2b081b6c5f5bf77c334c69c965821e2d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/Tree3.asset
+  importAddress: Guid(aaaa7ae280b527a4480e71bfd6cefa33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Tree3.asset using Guid(aaaa7ae280b527a4480e71bfd6cefa33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'df4984677f7d795558f9dde8b2ca36fd') in 0.0249708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c20089148ea32b6f92185abb740fa54e DependenciesID=da6d671007ecb00564b4b84c85a83d5c StaticDependenciesID=a677380c216c455ed489b0689daca79a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/Background3 1.asset
+  importAddress: Guid(2674b866259ea6d4db7ec94fdc99e564) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Background3 1.asset using Guid(2674b866259ea6d4db7ec94fdc99e564) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c988d3d488375c5e456ee916efd5df3d') in 0.0315299 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ff2602a577b3d0e2a83d5fdccda713c DependenciesID=fd93884924329841ac514cd45a454781 StaticDependenciesID=601929e1a6d542377152f2ac0032559c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround15.asset
+  importAddress: Guid(d195d91c69c79394e962597873b6825c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround15.asset using Guid(d195d91c69c79394e962597873b6825c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a6d748ccb0fc9522a507a233a3041f3b') in 0.0276108 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a50ad2a0efecc11d8ccf680d81e44f5d DependenciesID=bc8844b0aed1e55236574ea2e5091a88 StaticDependenciesID=f9f2bb171d0ce4fa5353063b3de43058 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/TileBackGround8.asset
+  importAddress: Guid(4fc809fe5d3b9c94281de0a0f002ffc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileBackGround8.asset using Guid(4fc809fe5d3b9c94281de0a0f002ffc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bd876a9a267ce5a734ab9315facbd6cf') in 0.0294199 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c7b091797c5919eaa79fd4a554a3d68 DependenciesID=e78296c2bf5d5d0543e9bab69b12db0b StaticDependenciesID=8ef3934782b4fa0a5c90e402a8dce312 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround4.asset
+  importAddress: Guid(cfd7f7e4c493f6c45b7a71202ba913e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround4.asset using Guid(cfd7f7e4c493f6c45b7a71202ba913e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f9066513b4c22e94ac6ed72e4966be2f') in 0.0251077 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f2d7de35f2fa8098a7beeaeada4c5d8 DependenciesID=87ef62fe5fca3792ad22de2a4268e4d5 StaticDependenciesID=1d9d2a08839ca296c0793c6ac4136cfe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tiles/TileFence6.asset
+  importAddress: Guid(60820aa435a64794e80fdc4665b04f1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileFence6.asset using Guid(60820aa435a64794e80fdc4665b04f1c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c843309a4f02ab0d6d6d25203f355ec9') in 0.034506 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c1df72bbb8a85f23f4fcc5b7e326e620 DependenciesID=e74b19c06e28ace42d0e9d076b94d0cd StaticDependenciesID=657281fdd8388278de5eef136a31e829 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/TileGround20.asset
+  importAddress: Guid(90f3127dd1601724e81294637c7cacee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround20.asset using Guid(90f3127dd1601724e81294637c7cacee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7e247ac82c88a3bb8c0480207ea33933') in 0.0421278 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=054f240ae67570c35f1722e8f1c1ebd0 DependenciesID=b6c921a0b27cffca656beea3ccf22cb4 StaticDependenciesID=8e0a07ec86c6e6882208cc1acb14317c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant1.asset
+  importAddress: Guid(aab6cd1f12664da44b49bc4640c84085) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TilePlant1.asset using Guid(aab6cd1f12664da44b49bc4640c84085) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1f77693b12bba871b6a785d2d89830fa') in 0.0412564 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c982c93c93e865e9ce71697b28cf1153 DependenciesID=6c2cbff2c5a856e0c7fc2cba7493f957 StaticDependenciesID=5f6088edf2aa3e82cd8e9a9df6ac7922 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/prefabs/DialoguePanel.prefab
+  importAddress: Guid(70313d18e1da22841a92c1afc0a98d4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/prefabs/DialoguePanel.prefab using Guid(70313d18e1da22841a92c1afc0a98d4d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '272597bd2d570b31fae59d7d464b4901') in 0.0488347 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c46d507856446f25c40d84f8cc75569 DependenciesID=580eaaf6f6d479c8b8bc49f6f8f76bf0 StaticDependenciesID=2c78ed5e39d1dcfe54ebd09734e68f47 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Tiles/Plant3.asset
+  importAddress: Guid(1784325656fc3444a8bb06a0dfc2a65d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Plant3.asset using Guid(1784325656fc3444a8bb06a0dfc2a65d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '171cea98bb6a068aae6d581f635f80d5') in 0.0558924 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=169f8fc2046451b27b839d5403ad8d68 DependenciesID=8927135a1c9483aee076618622bc4cfb StaticDependenciesID=49a721af52c7d47cab1e0e7cdfffb3f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiles/Background1.asset
+  importAddress: Guid(ba93e6e0457f1244bb3b15d917a255e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Background1.asset using Guid(ba93e6e0457f1244bb3b15d917a255e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f72a32897f09c57db7c77c2233353648') in 0.1482416 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=747a334de119a29c78e6972dbf74f8d6 DependenciesID=85d8b5370958c5755d6daa405555f558 StaticDependenciesID=801337570486657b78ab0e964eea0329 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileBackGround2.asset
+  importAddress: Guid(631b74bd7b411de4bb6b98c4d7865d88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileBackGround2.asset using Guid(631b74bd7b411de4bb6b98c4d7865d88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9b6bc3ee08196a829b74b18096b21c29') in 0.1731651 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a1977f6462801ef08c44d9453ff78d1 DependenciesID=ffd7a3cc804c19a1ae3ae161358536c6 StaticDependenciesID=0ab8c8915b424facf5e48f422170b8b5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/TileGround7.asset
+  importAddress: Guid(4b25f0217f3959746b8e8c069deeefa7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround7.asset using Guid(4b25f0217f3959746b8e8c069deeefa7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '353049e3d695abc2bc7a98ee5376e7b3') in 0.5137881 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8e6a1d536052d0bf8c8dc8a6712438cd DependenciesID=379e4392027b428b3b40765890cb21b1 StaticDependenciesID=ed90f9a33b773c6fd78915a0226c698d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tiles/Stone6.asset
+  importAddress: Guid(ada3bab8d55cfe9438b80c483e23c4e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Stone6.asset using Guid(ada3bab8d55cfe9438b80c483e23c4e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '311fe152bda4019fbf7f01d53099155d') in 0.0682501 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cd3042179491d10ff58edb6f8a8095d8 DependenciesID=1bde68a048f8bff7dccb8d3720d1e791 StaticDependenciesID=ae7d5d477590ec24f09224164f41cb16 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround19.asset
+  importAddress: Guid(990b46d35dad20345aa74068028763f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tilemap/TileGround19.asset using Guid(990b46d35dad20345aa74068028763f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '027a6b02dfc9dbd49475465db556aaa6') in 0.0513776 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ac38fbb431ec926f6b0d252520ca8c59 DependenciesID=93eeb3c116c8b2ad49885c79cc7f29d6 StaticDependenciesID=981e28bb7274fe41e42e31241776049f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tiles/Plant2.asset
+  importAddress: Guid(f325e73f51757f2428f5ec9027349d02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Plant2.asset using Guid(f325e73f51757f2428f5ec9027349d02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a2f6d0bebd4ac732c78e0f01eedb9400') in 0.0164333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7555819b147d924f8db1ac0bf3c13ea6 DependenciesID=8c3c1f4ee91c59b481695e47ea8862ac StaticDependenciesID=4bd91ae7a662c154150a3d5190b553ef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/TileGround1.asset
+  importAddress: Guid(d5599bb780f303346bf25bbe4b72a360) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround1.asset using Guid(d5599bb780f303346bf25bbe4b72a360) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bc1221371c820fc2542bfb28d4212574') in 0.0257076 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95af810638e9db2a1d6d0716db549aba DependenciesID=69174d946e31589ec44bf5302eeadf7f StaticDependenciesID=67178cff60b74dbe7a5707796e696816 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Tree2 1.asset
+  importAddress: Guid(39fd4863437da6a4cbeca9f3684a1567) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Tree2 1.asset using Guid(39fd4863437da6a4cbeca9f3684a1567) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '193945b04715ba2601e9ef6eb55c4707') in 0.0312057 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=196c213533f23d58fd9b268ce3c7dbd8 DependenciesID=84ef22a931e943b87113d6c0dd2f6e7c StaticDependenciesID=6bd9b1220af6633abd19a7674d2ac85e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/TileBackGround8 1.asset
+  importAddress: Guid(d26c682f7628dd94a96983d42572ec28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileBackGround8 1.asset using Guid(d26c682f7628dd94a96983d42572ec28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '93f512d20f1849daaf6d57bb253a8c61') in 0.0260461 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=932433bc23578156ec509e04c35f92ca DependenciesID=331dbe009c32c53f0f6ba725d99661d1 StaticDependenciesID=28acf7a662aad8d3cb92c11b2185fa38 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/TileGround23 1.asset
+  importAddress: Guid(a44a3aa819fdbd942ac57e5403a75307) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround23 1.asset using Guid(a44a3aa819fdbd942ac57e5403a75307) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6fa41c142c761661c272eabd4fe19b34') in 0.0487449 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=966483312ffdf76cf3b8a672cab737a2 DependenciesID=528d9c9c2b54f07c209c49595cfecc0b StaticDependenciesID=6a4f30cc38430e4e5ccd237b17509be9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/TileFence5 2.asset
+  importAddress: Guid(828143dca2a644f41947ad26c905b1ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileFence5 2.asset using Guid(828143dca2a644f41947ad26c905b1ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '88fb51b9c6b74d7473dc3841789aa601') in 0.0262662 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f7eced96a768d5284196953397b5756c DependenciesID=a74003a743ead89e7fd61771ede0feb0 StaticDependenciesID=ada2533c44a24ef390cf2c62c9a4923f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tiles/TilePlant4 2.asset
+  importAddress: Guid(a62ca8b236348054688fece1526e386a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant4 2.asset using Guid(a62ca8b236348054688fece1526e386a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0ff70ae330d2f1caab2f6b63a1560c2b') in 0.0213211 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fa764347509f322431f03594b59072d3 DependenciesID=e69b6fca6ddcb378a23a3879b4d9f976 StaticDependenciesID=731cca6254035f846673cae195add448 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/TilePlant11 2.asset
+  importAddress: Guid(fc835f87532480f41a8ee0baac85c589) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant11 2.asset using Guid(fc835f87532480f41a8ee0baac85c589) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4450750477aa26b8eb3baa8cd4ca879b') in 0.0229122 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ebc5f97384110196704043d399516f4 DependenciesID=2d9c207d213fc64fdfd3cdfbc22d8855 StaticDependenciesID=38c8265fa29dd69eeb434597a406fade 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/TileBackGround3 2.asset
+  importAddress: Guid(5faefc51b8d97e242a9da1fa6750ee51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileBackGround3 2.asset using Guid(5faefc51b8d97e242a9da1fa6750ee51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '052f71dd5e2193a13932d19a65ac5658') in 0.0210587 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=891dfa410098db7332ccfd609b221f4c DependenciesID=6ce60fe4877e1622aefeddb5028ce853 StaticDependenciesID=992bd22cb4e652e8b15be02bef461edb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiles/TilePlant10 2.asset
+  importAddress: Guid(e1d3e5329c73a1f449571e04ee03ec0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant10 2.asset using Guid(e1d3e5329c73a1f449571e04ee03ec0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '31fce89e99bcd3f0d47299a700b0ad46') in 0.0220873 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73e8b59fe04095f510d4f212792e0774 DependenciesID=68bc307319a793923f1ccbc4c6281c0b StaticDependenciesID=f22ab154176a49aa85c910ad2bf249e7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/TileBackGround2 2.asset
+  importAddress: Guid(1d47fc97f12e5ef42bb40c8d337f171b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileBackGround2 2.asset using Guid(1d47fc97f12e5ef42bb40c8d337f171b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3456781ced620f8dbbf5e01d11add3f6') in 0.017264 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7bce2c2cf4e50c22202fd12ecc67716 DependenciesID=0238a4ca00e49da7b59e64743621ba3a StaticDependenciesID=de600492953d4cc6ad7d5a8889a079b8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/Box1 2.asset
+  importAddress: Guid(194d7028907dd764bbbc9569bc7446a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Box1 2.asset using Guid(194d7028907dd764bbbc9569bc7446a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3adb13ea71b512fb25b2e14b4ae20f3d') in 0.0814065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8165b76cebeccc2a42e487a71d9044a0 DependenciesID=307b832cb2cdadae1afbe79e6b173b20 StaticDependenciesID=c5e9d42b258ba776659c3b7bdbdaecb1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/TileFence1 2.asset
+  importAddress: Guid(f94e9c032d483fd49a4e7aac744378e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileFence1 2.asset using Guid(f94e9c032d483fd49a4e7aac744378e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '100fbd8a13b11fb4d11410746b83e524') in 0.0269787 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0aebcdb9179111e739ee3edbc4cb13f0 DependenciesID=5a1d230c125bf2bb9b7bddb3a3540059 StaticDependenciesID=e8166742d829ce3ce34ee7cf346b17f2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Tree4 2.asset
+  importAddress: Guid(a5bee98bd40277f45bf54c9c322ba872) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Tree4 2.asset using Guid(a5bee98bd40277f45bf54c9c322ba872) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'da82e1416e2dfc87f87236569f0f82ae') in 0.0212465 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1942d08fd7e1a868ce18bd278d5753ae DependenciesID=8ccdbe777830c5861be0a371b95af064 StaticDependenciesID=f7987098f61086c05fb1794a9c97b550 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/Background3 2.asset
+  importAddress: Guid(dbbf5ac98fa04a341b16a54ce09750c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Background3 2.asset using Guid(dbbf5ac98fa04a341b16a54ce09750c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8ee3afdeb4c92a585210f78ae6f3d6b7') in 0.0892158 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f96ade80486eae6846046a83ef9f14bc DependenciesID=d5f54b5a27e5fba4844c28310d7a9202 StaticDependenciesID=9959f6d5742a6f5027a05199a61758cd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/TileGround23 2.asset
+  importAddress: Guid(1b80b9e4a7cb08e47ad1218a07a46033) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround23 2.asset using Guid(1b80b9e4a7cb08e47ad1218a07a46033) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '73a3668b8596d9676b70cc3ad07e21d8') in 0.0470636 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eb5b686c92b11b974db4bfab52b6b15e DependenciesID=2d009452bae33064c179a58f77512d28 StaticDependenciesID=055f22fd061412746720f0c1a07b532e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/TileBackGround5 2.asset
+  importAddress: Guid(accb67dca7a73b64f8c84feda642de18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileBackGround5 2.asset using Guid(accb67dca7a73b64f8c84feda642de18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f3ae5494765298d97a3876d850b188cc') in 0.0284351 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b677167cc27c2c75a42546c92057a322 DependenciesID=67588793c91414f9bd504e425bd8ea56 StaticDependenciesID=cf0dfbd94fc2124a44927e17e14324c2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Tiles/TileGround15 2.asset
+  importAddress: Guid(d310c71c9ad028541b7195c95cfe25f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround15 2.asset using Guid(d310c71c9ad028541b7195c95cfe25f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '42a7162e8bbaff2078c003154abed16f') in 0.0303119 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=04e94b019616f79c23241db5ef3b9f14 DependenciesID=6a25c5ad7bf39e13c45f51ab1980708a StaticDependenciesID=23d95b861e92d9baceca7c90b2f41924 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/TileGround21 2.asset
+  importAddress: Guid(44133e2b95479bd4d9e20816004c3ad6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround21 2.asset using Guid(44133e2b95479bd4d9e20816004c3ad6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '56e54c6257635c3415159c08182d9ef6') in 0.0266949 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af2b629b382ff71b8fe260762f72cc3a DependenciesID=5f44fd119999d375324fd7f6f9718dc2 StaticDependenciesID=a3f803a0d13eddb21a1f46ea294148d4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/TilePlant19 1.asset
+  importAddress: Guid(4b648f746b5edee41bd3bcd32005cee4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant19 1.asset using Guid(4b648f746b5edee41bd3bcd32005cee4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b024cb30a655d1bcded011d8e735adde') in 0.0501003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e8ce97315232466661e09de41477f649 DependenciesID=8fb2ad9bd94122df4b3ce5634b9b0992 StaticDependenciesID=6939250d059810735cfda032dfdfa167 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tiles/TileBackGround13 2.asset
+  importAddress: Guid(e4dfae2617d85ef4f9d9dc8cc3998514) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileBackGround13 2.asset using Guid(e4dfae2617d85ef4f9d9dc8cc3998514) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f41a5ba4365f909774242d5919f4ef0a') in 0.0675042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=33294462a5f5b6711d53394296ed1c14 DependenciesID=c2d95f5e73689f833824442f5c6cae2e StaticDependenciesID=a06aefd84480483fb4a482374a5d4439 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.prefab
+  importAddress: Guid(027db5ce1ff2f4142b49c3de3b59625a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.prefab using Guid(027db5ce1ff2f4142b49c3de3b59625a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7152c8f5f7d1974bb02c11b01cf49f36') in 0.0905904 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7de817ddce9c87bcdf4895ee911bd6e DependenciesID=bc1be1585fbadaec3ec5e31ed3ffa8f9 StaticDependenciesID=ad92a59bbb377727ea02bae7604bcb56 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/TilePlant13 2.asset
+  importAddress: Guid(25284fdebc506d44c8cd927085bb22ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant13 2.asset using Guid(25284fdebc506d44c8cd927085bb22ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'df3a59a0ab528bdc77e428f29133a0b1') in 0.0313674 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=879c8224e3ddcc027352f92466c81740 DependenciesID=abce953de929956926d01423ffe967fc StaticDependenciesID=abaaab024284787ef1d83e30709e5d39 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tilemap.prefab
+  importAddress: Guid(e15785af18411f44a8b9a0085c45588f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tilemap.prefab using Guid(e15785af18411f44a8b9a0085c45588f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f3f5dfcb174c216146a63fb5e3e85b42') in 0.0493187 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1bdc3e41bb781844d442fa51a0c458a3 DependenciesID=1c3a0384d2df6bbf4361297ee5268b7b StaticDependenciesID=cca9a1fd7ef9d0385579e91c2983b5de 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/TilePlant8 2.asset
+  importAddress: Guid(b5c985a1cd746324f9a6548899fd750b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant8 2.asset using Guid(b5c985a1cd746324f9a6548899fd750b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6b211329624dad764f6901b653f2392e') in 0.0296267 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3619bfa8c051b9671ef5f63eebb94608 DependenciesID=293bae2c4db9a4f1f48f6c76a71ee785 StaticDependenciesID=4072b39b31696c40ff37df953def2749 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/TileGround1 2.asset
+  importAddress: Guid(5d3e7be955bad234b908cc3cdb68579d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround1 2.asset using Guid(5d3e7be955bad234b908cc3cdb68579d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '494e83ba7380a19133786d161375cd56') in 0.0210121 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=addbf869851e3c625fb5e272defbe15e DependenciesID=60271d98e70430144fc1810e839a71db StaticDependenciesID=56388c156fa106c858f5f45be3941da0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/TilePlant19 2.asset
+  importAddress: Guid(cd3a7fd560aa98043bad482fc7078761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant19 2.asset using Guid(cd3a7fd560aa98043bad482fc7078761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '502e5eaa4c9f97173c77167f6fd6c589') in 0.0265377 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eae5d9ce6abb48e732e185430620ffdd DependenciesID=87726f6731d1825847c8bffcb75eb2f4 StaticDependenciesID=f05c9d987bc72bd886d483d6e6634bb1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Background4 2.asset
+  importAddress: Guid(c0285e049f092ac47a8cfd425e6dfa98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Background4 2.asset using Guid(c0285e049f092ac47a8cfd425e6dfa98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e121a50f4c786f877d689787dfdadc17') in 0.0312796 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1572f58a1b78e5e1ef92d608070dd460 DependenciesID=14eed7f8194557f536c6ebf462ab6c49 StaticDependenciesID=57f77d510b1926561335905850cb4c27 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tiles/TileGround20 2.asset
+  importAddress: Guid(a5878232e3314d44c882fdc96a8bd9e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround20 2.asset using Guid(a5878232e3314d44c882fdc96a8bd9e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '60d77b91ed22303153ed46ecd2f69cce') in 0.0380526 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb12b00a12feee1e63c5f580641e0e1a DependenciesID=b0c0c8c1e6312760229b924b8d2a754f StaticDependenciesID=b44449d2b3fe6fef0d13a6a70540ad12 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/Tree5 2.asset
+  importAddress: Guid(09c6bb94b18f09f4e99159bb312ba34c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Tree5 2.asset using Guid(09c6bb94b18f09f4e99159bb312ba34c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fe238f895dea5911b6b4fe1796f59770') in 0.0316504 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=29a8b676f26eb645c60fa2201be9d55f DependenciesID=7f299b01bbd163778d8b61de830081e4 StaticDependenciesID=746d67e8ade6470982ba800a95792d68 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Bucket 2.asset
+  importAddress: Guid(6f87ca5f9cdc4894c9e8d057a7c6263b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Bucket 2.asset using Guid(6f87ca5f9cdc4894c9e8d057a7c6263b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '787a33fb1470cca2c164790e4ab90953') in 0.0410802 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c592287df0d939ab2417ac313b1d0a4 DependenciesID=5f64c394c07cabdd8f40f823fa9b2eee StaticDependenciesID=a76b9a15c070ba6aada963f2d0fe548a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  importAddress: Guid(b0c60e3ba6c4b1f45b792e90852aa32c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainMenu.unity using Guid(b0c60e3ba6c4b1f45b792e90852aa32c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b1f128a6b0dcbd59d41bc7124bad9d9c') in 0.0175628 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69d3101817b8ec5330a29d50fe8faadb DependenciesID=14e29c1b07c00d30cdc9d04f60c4a2b7 StaticDependenciesID=c92f4fceb73eb6ae0ac36ebc3f4e6e7c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Box2 2.asset
+  importAddress: Guid(e9f3cdc2ba09b39468c5c4e0dbef9dfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Box2 2.asset using Guid(e9f3cdc2ba09b39468c5c4e0dbef9dfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '806f7764ee3a75c9f3a3778083b2e432') in 0.0148976 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9719bd6d6519ba8c85db36c7fa51c401 DependenciesID=eb916e228a1e38edf66b4763ec822be6 StaticDependenciesID=1adac863ec9540ebba411db34b9d036d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/TilePlant7 1.asset
+  importAddress: Guid(6136eb6cf154e2047a356b5782fc853d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant7 1.asset using Guid(6136eb6cf154e2047a356b5782fc853d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0a2af9928742a99e746c4ea0b345bd4a') in 0.02183 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1c40fce6b0ac47c80aa3fc58eabb4d1 DependenciesID=8f709ffba9fcbd6028dd72650c8a83e5 StaticDependenciesID=4da1f27f83fa74b502a80195313bd595 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/Stone2 2.asset
+  importAddress: Guid(8e1b760cd59a04c49ae1760098b7ae1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Stone2 2.asset using Guid(8e1b760cd59a04c49ae1760098b7ae1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2beb05adf10f85f08d3603b1f5534c53') in 0.1311422 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e0650ba0761a4ad2252a148c3c098ab0 DependenciesID=3a25f3f125c8c0a988c54016f3c025b0 StaticDependenciesID=763e6e7b74603bd9e9bfb3f9fc587239 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/8Bit Music - 062022/6. Track 6.wav
+  importAddress: Guid(89f935015cc98724a862a586326fdf21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/8Bit Music - 062022/6. Track 6.wav using Guid(89f935015cc98724a862a586326fdf21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '08d69c5800a695c39dd4c503bd3fb5eb') in 1.1772653 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6b2e24948e6c09d9ecc79a8023451cd DependenciesID=c6d46447ea12d4adc82c00a85de62c51 StaticDependenciesID=32eb9ccf502b3270ca6813333dec03ea 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiles/TileBackGround6 2.asset
+  importAddress: Guid(6efc8d0b9b5809e4799530040851151f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileBackGround6 2.asset using Guid(6efc8d0b9b5809e4799530040851151f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '68df6d00cc9295e818e567b48ed7f84f') in 0.0196199 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5230bb32794e13111aa6009b1af83282 DependenciesID=2ff1576316f7ac562760308137e500c3 StaticDependenciesID=585d17189a7922e38c85c87c8af54d7c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tiles/Stump2 2.asset
+  importAddress: Guid(29c6bc7f2569da24a99a346e87129dc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Stump2 2.asset using Guid(29c6bc7f2569da24a99a346e87129dc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '19e44f4ba59864552e550b9129f7db05') in 0.0223195 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ff2c334175225323710a054b11e18ec DependenciesID=69594eb139b138c35a5ca479c2c19755 StaticDependenciesID=01d33dd276d1026b9eb3eafc9a28e835 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/TileGround11 1.asset
+  importAddress: Guid(40946ba6c4bd11441bba51d1dfa2ddae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround11 1.asset using Guid(40946ba6c4bd11441bba51d1dfa2ddae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bf37ae1cfff9b5f64a8f3fa68307c3bc') in 0.0230138 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0e3aa93e30b162c8939ace7cb5baf5fc DependenciesID=3b656e228d97a4bf01040843a12865e8 StaticDependenciesID=b9e4b85d72f972c6a741e1ed9cee190d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/TilePlant12 2.asset
+  importAddress: Guid(6713512a406067a4b94e096726084356) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TilePlant12 2.asset using Guid(6713512a406067a4b94e096726084356) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd9639ffec6d6d7e1b8bfb672acc8c875') in 0.0158383 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a50630b2e5d4aef32fcff89da5590d6 DependenciesID=5254c3b05f3a0b5e6d8676b00d4423c3 StaticDependenciesID=78ac6697a67a3b49f7b99822c8cc9a10 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/TileGround16 2.asset
+  importAddress: Guid(a12842976f11e6b4ab7199a709e6c16b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/TileGround16 2.asset using Guid(a12842976f11e6b4ab7199a709e6c16b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd35d5bf84f2a6910df690070d8ffa32d') in 0.0178329 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=56402c63dd96b6ed5ca81edb0e722185 DependenciesID=c29667e39c31b1588cb6813a39814c64 StaticDependenciesID=1a7c23451545ea2affdaed3a0a315dec 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/Background1 2.asset
+  importAddress: Guid(b6bb73554008712439c658e71aec04e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Background1 2.asset using Guid(b6bb73554008712439c658e71aec04e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4adb1f61077167d4b4e4dccf9c0d91b0') in 0.0167556 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=97a56e1e023e71c2cdc6ee723ebcef38 DependenciesID=1feb4503a09af94c94364230b97b0119 StaticDependenciesID=c9bcf25a430bb18dc7f9dc36a1cbcf1d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiles/Stump3 1.asset
+  importAddress: Guid(ace7f131fddc3464ebcd37085d2b4dd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tiles/Stump3 1.asset using Guid(ace7f131fddc3464ebcd37085d2b4dd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ff5286b638730e578ce66a43ea378cff') in 0.0183808 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef9809e823a521578000908107b823dc DependenciesID=9388d2bd55b67880711028de4bdc2a47 StaticDependenciesID=40bbf29f8c99d24ae58b4d35c4771985 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.77 ms, found 5 plugins.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (2.7 MB). Loaded Objects now: 8608.
+Memory consumption went from 159.3 MB to 156.6 MB.
+Total: 11.039300 ms (FindLiveObjects: 0.661200 ms CreateObjectMapping: 0.483000 ms MarkObjects: 9.191000 ms  DeleteObjects: 0.702600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+ADTM: Control thread waiting for realtime thread timed out, have to lock...
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 32.72 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.343 seconds
+Domain Reload Profiling: 4224ms
+	BeginReloadAssembly (1411ms)
+		DisableScriptedObjects (16ms)
+		CreateAndSetChildDomain (1104ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (1280ms)
+		LoadAssemblies (1073ms)
+		AnalyzeDomain (406ms)
+			TypeCache.Refresh (18ms)
+			BuildScriptInfoCaches (362ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1344ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (322ms)
+			ProcessInitializeOnLoadAttributes (465ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 4.15 ms, found 5 plugins.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7764 unused Assets / (5.6 MB). Loaded Objects now: 8612.
+Memory consumption went from 170.9 MB to 165.2 MB.
+Total: 16.590300 ms (FindLiveObjects: 1.817200 ms CreateObjectMapping: 1.607700 ms MarkObjects: 7.562100 ms  DeleteObjects: 5.600200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
